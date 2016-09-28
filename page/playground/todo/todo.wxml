@@ -1,0 +1,13 @@
+<view class="btn-area">
+  <view class="body-view">
+    <!--<checkbox-group bindchange="toggle">
+        <label class="checkbox {{item.checked ? 'red' : ''}}" wx:for-items="{{items}}" data-i="{{index}}" bindtap="tap">
+            <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+        </label>
+    </checkbox-group>-->
+    <text class="todoItem {{item.completed ? 'red' : ''}}" wx:for-items="{{items}}" data-idx="{{index}}" bindtap="toggleTodo">
+      {{item.value}}
+    </text>
+    <text>Finished {{completedCount}}/{{allCount}}</text>
+  </view>
+</view>

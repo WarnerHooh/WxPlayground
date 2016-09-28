@@ -1,0 +1,15 @@
+.checkbox{
+    display: block;
+    margin-bottom: 10px;
+    line-height: 32px;
+    background: #CCC;
+}
+
+checkbox{
+    display: none;
+}
+
+.red {
+    color: #f00;
+    text-decoration: line-through;
+}
