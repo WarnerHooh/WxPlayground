@@ -67,7 +67,8 @@
 
       "page/playground/index",
       "page/playground/canvas/canvas",
-      "page/playground/todo/todo"
+      "page/playground/todo/todo",
+      "page/playground/animate/animate"
   ],
   "window": {
     "navigationBarTextStyle": "black",

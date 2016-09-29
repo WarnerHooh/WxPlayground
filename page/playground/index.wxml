@@ -24,6 +24,13 @@
                         <image class="widget__arrow" src="resources/arrow.png" background-size="cover" />
                     </navigator>
                 </view>
+
+                <view class="widgets__list {{viewShow ? 'widgets__list_show' : ''}}">
+                    <navigator url="animate/animate" class="widget">
+                        <text class="widget__name">Animate</text>
+                        <image class="widget__arrow" src="resources/arrow.png" background-size="cover" />
+                    </navigator>
+                </view>
             </view>
             
         </view>

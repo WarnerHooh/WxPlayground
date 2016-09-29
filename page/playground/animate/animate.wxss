@@ -1,0 +1,25 @@
+.animate_container{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.animate_box {
+    width: 100%;
+    height: 100%;
+}
+
+.animate_page{
+    width: 100%;
+    height: 100%;
+}
+
+/*.animate_page{
+    width: 100%;
+    height: 100%;
+}*/
+
+.animate_image{
+    width: 100%;
+    height: 100%;
+}

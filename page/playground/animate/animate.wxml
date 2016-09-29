@@ -1,0 +1,11 @@
+<view class="animate_container">
+    <view class="animate_box" animation="{{animationData}}">
+        <view wx:for="{{animationAssets}}" class="animate_page" data-idx="{{index + 1}}" bindtap="onTap">
+            <image class="animate_image" mode="{{item.mode}}" src="{{item.image}}"></image>
+        </view>
+
+        <view class="animate_page" data-idx="{{animationAssets.length + 1}}" bindtap="onTap">
+            <image class="animate_image" mode="{{animationAssets[0].mode}}" src="{{animationAssets[0].image}}"></image>
+        </view>
+    </view>
+</view>
