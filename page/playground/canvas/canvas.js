@@ -8,6 +8,18 @@ Page({
     console.error(e.detail.errMsg)
   },
   onReady: function (e) {
+    const context = wx.createContext();
+
+    wx.chooseImage({
+      success: function(res) {
+        console.log(res);
+        context.drawImage(res.tempFilePaths[0], 0, 0, 300, 300)
+        wx.drawCanvas({
+          canvasId: 'imgCanvas',
+          actions: context.getActions()
+        })
+      }
+    })
   },
   // move actions collection
   movements: [],
